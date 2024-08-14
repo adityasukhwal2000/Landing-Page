@@ -1,0 +1,54 @@
+.projects-options-btn {
+  display: flex;
+  font-size: 2.4rem;
+  text-transform: capitalize;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 1rem 0 3rem 0;
+  flex-wrap: wrap;
+}
+
+.projects-options-btn li {
+  background-color: var(--secondary-col);
+  color: #000;
+  border: 0.1rem solid #545454;
+  border-radius: 1rem;
+  padding: 1rem 1.2rem;
+  transition: all 0.3s linear;
+  &:hover {
+    background-color: var(--primary-col);
+    color: #fff;
+  }
+}
+
+.projects-options-btn li.active {
+  background-color: var(--primary-col);
+  color: #fff;
+}
+
+.section-projects .grid {
+  gap: 2rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.projects div:first-child {
+  background: #ffebdb;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.projects img {
+  width: 100%;
+}
+
+.project-subHeading {
+  font-size: 1.9rem;
+  color: var(--primary-col);
+}

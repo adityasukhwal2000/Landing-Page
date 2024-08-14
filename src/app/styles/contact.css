@@ -1,0 +1,24 @@
+.section-contact {
+  text-align: center;
+}
+
+.send-email {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-main {
+  width: 50%;
+}
+
+.input-main input {
+  border: 0.1rem solid #afafaf;
+  border-radius: 1rem;
+  outline: none;
+  padding: 1rem;
+  background-color: var(--secondary-col);
+  font-size: 2.1rem;
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.services-content {
+  text-align: center;
+  & p {
+    margin: 2rem 0 4rem 0;
+  }
+}
+
+.section-service .grid {
+  gap: 2rem;
+}
+
+.service-cards {
+  background-color: var(--secondary-col);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.service-subHeadings {
+  margin: 3rem 0 2rem 0;
+}
+
+.card-images img {
+  width: inherit;
+  height: inherit;
+}
